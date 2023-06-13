@@ -48,8 +48,7 @@ var swiper = new Swiper(".mySwiper", {
 
 // === HEADER HIDE ===
 
-// document.querySelector(".end").style.transform =
-//   "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)";
+document.querySelector(".end").style.transform = "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)";
 // console.log(document.querySelector(".end").style.transform);
 const header = document.querySelector(".main__heading");
 
