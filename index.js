@@ -6,7 +6,7 @@ const scroll = new LocomotiveScroll({
     smooth: true,
   },
   smartphone: {
-    smooth: true,
+    smooth: false,
   },
   getDirection: true,
   // direction: "vertical",
