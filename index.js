@@ -3,9 +3,9 @@ const scroll = new LocomotiveScroll({
   smooth: true,
   initPosition: { x: 0, y: 0 },
   tablet: {
-    smooth: true,
+    smooth: false,
   },
-  smartphone: {
+  mobile: {
     smooth: false,
   },
   getDirection: true,
