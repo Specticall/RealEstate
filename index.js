@@ -1,7 +1,7 @@
 const scroll = new LocomotiveScroll({
   el: document.querySelector("[data-scroll-container]"),
   smooth: true,
-  initPosition: { x: 0, y: 6000 },
+  initPosition: { x: 0, y: 0 },
   tablet: {
     smooth: true,
   },
