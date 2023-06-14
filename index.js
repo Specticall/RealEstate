@@ -3,10 +3,10 @@ const scroll = new LocomotiveScroll({
   smooth: true,
   initPosition: { x: 0, y: 0 },
   tablet: {
-    smooth: false,
+    smooth: true,
   },
   mobile: {
-    smooth: false,
+    smooth: true,
   },
   getDirection: true,
   // direction: "vertical",
